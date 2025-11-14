@@ -51,7 +51,7 @@ let textModelQuantity = 3; //18
 
 function preload(){
   testSong = loadSound('Deftones – Knife Prty (Official Visualizer).mp3');
-  shapeModel = loadModel('../Prism.obj');
+  // shapeModel = loadModel('../Prism.obj');
   for (let i = 0; i<shapeModelQuantity; i++){
     shapeModels[i] = loadModel(`./models/shapes/model (${i}).obj`);
   }
