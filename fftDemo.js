@@ -83,9 +83,9 @@ function setup() {
   
   fft = new p5.FFT(0.8, numCubes); // smoothness=0.8, resolution=16 bins
   if(fft){
-    fft.setInput(testSong);
+    fft.setInput(mic);
   }
-  testSong.play();  
+  // testSong.play();  
   
   // MIDI ANALYZER
   //helper variables
